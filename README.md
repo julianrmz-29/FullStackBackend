@@ -19,6 +19,7 @@ API's created in C# using .NET 9
        "taskName": "string",
        "completed": false
    }
+```
    Where:
       "taskName" is a string value,
       "completed" is a Boolean value
