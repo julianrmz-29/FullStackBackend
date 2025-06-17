@@ -12,5 +12,16 @@ API's created in C# using .NET 9
 
 - Methods implemented in the API:
    GET, POST, PUT, DELETE
+   JSON body for POST and PUT
+      {
+         "taskName": "string",
+         "completed": false
+      }
+   Where:
+      "taskName" is a string value,
+      "completed" is a Boolean value
+
+   DELETE: {id} receives as a parameter an integer value corresponding to the ID of the item to be deleted
+  
 - By default, when compiling the solution, it opens in the browser with the SCALAR documentation, but if you prefer to use Swagger, just change the URL path: https://localhost:{port}/swagger/index.html
 - CORS enabled for "http://localhost:3000" and "http://localhost:4200"
