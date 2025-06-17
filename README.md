@@ -10,13 +10,15 @@ API's created in C# using .NET 9
 - If the folder is present, type 'update.database' in the console.
 - If you get an error, check program and appsettings to verify the connection string to the database or if any file displays an error.
 
-- Methods implemented in the API:
-   GET, POST, PUT, DELETE
-   JSON body for POST and PUT
-      {
-         "taskName": "string",
-         "completed": false
-      }
+- ## Methods implemented in the API:
+- **GET**, **POST**, **PUT**, **DELETE**
+
+### JSON body for POST and PUT
+```json
+   {
+       "taskName": "string",
+       "completed": false
+   }
    Where:
       "taskName" is a string value,
       "completed" is a Boolean value
